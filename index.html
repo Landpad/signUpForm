@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
     <title>Sign Up Form</title>
 </head>
 <body>
-    
+    <div class="sideDivContainer">
+            <div>
+                <div id="logo"></div>
+                <div id="logoText">PINGU</div>
+            </div>
+            <div id="credits">
+                <p>Photo by <a href="https://unsplash.com/es/@lgnwvr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">LOGAN WEAVER | @LGNWVR</a> en <a href="https://unsplash.com/es/fotos/un-bosque-cubierto-de-nieve-lleno-de-arboles-ony2Qt9lP38?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </p>
+            </div>
+    </div>    
+    <div class="singUpSectionContainer">
+        <div class="introContainer">
+            <p>Welcome to PINGU! If you love penguins, sign up right now! <br>
+                Here, you'll find everything you want to know about penguins.<br>
+                Let's start this awesome journey together—you've got this!</p>
+        </div>
+        <div class="formContainer">
+            <div>
+                <p>Let's do this!</p>
+                <div class="inputContainer">
+                    <div class="formInput">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" placeholder="Pingu">
+                    </div>
+                    <div class="formInput">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName">
+                    </div>
+                </div>
+                <div class="inputContainer">
+                    <div class="formInput">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="pingu@pingu.com">
+                    </div>
+                    <div class="formInput">
+                        <label for="number">Phone Number</label>
+                        <input type="tel" id="number" placeholder="+541176435467">
+                    </div>
+                </div>
+                <div class="inputContainer">
+                    <div class="formInput">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div class="formInput">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="submitContainer">
+            <div>
+                <input type="submit">
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+            <div>
+                <p></p>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>

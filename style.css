@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+body{
+    display: flex;
+}
+
+.sideDivContainer{
+    width: 30vw;
+    height: 100vh;
+    background-image: url("./resources/logan-weaver-lgnwvr-ony2Qt9lP38-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sideDivContainer div:first-of-type{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    content: url(./resources/penguinLogo-Photoroom.png);
+    width: 25%;
+}
+
+#logoText{
+    font-size: 50px;
+    color: white;
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+}
+
+#credits{
+    position: absolute;
+    bottom: 10px;
+    width: 30vw;
+}
+
+#credits p{
+    text-align: center;
+}
+
+.singUpSectionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introContainer{
+    margin-left: 50px;
+}
+
+.introContainer p{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.formContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.formContainer > div{
+    margin-left: 50px;
+}
+
+.inputContainer{
+    display: flex;
+}
+
+input{
+    width: 15vw;
+    height: 3vh;
+    border-radius: 5px;
+    border-width: thin;
+    box-shadow: 1px 1px 5px;
+}
+
+input:focus{
+    outline: 1px solid blue;
+}
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px 10px 0px;
+}
+
+.submitContainer{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.submitContainer > div{
+    margin-left: 50px;
+}
+
